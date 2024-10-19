@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script is designed to run tests on a specified repository, generate coverage reports, and output the results in various formats. 
+# This script is designed to run tests on a specified repository, generate coverage reports, and output the result in various formats. 
 die() {
         echo "Usage: $0 'repo_name'"
         echo "repo_name: the name of the repo to test, i.e. 'apid'"
