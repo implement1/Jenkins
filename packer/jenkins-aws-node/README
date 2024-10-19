@@ -5,8 +5,7 @@ Modify vars in template.json or pass vars on command line to override
 
       "profile": "default",
       "region": "us-east-2",
-      "subnet_id": "subnet-0506f759002299179",
-      "vpc_id": "vpc-03c06eb2249393f25"
+      "subnet_id": "subnet-0506f7546564674774",
+      "vpc_id": "vpc-03c0fgrgrgrgr"
 
-packer build -timestamp-ui -var "profile=default" -var "region=us-east-1" -var "subnet_id=subnet-0793038dab8bbf526" -var "vpc_id=vpc-0ee7bacca0cefca86" template.json
-
+packer build -timestamp-ui -var "profile=default" -var "region=us-east-1" -var "subnet_id=subnet-0506f7546564674774" -var "vpc_id=vpc-03c0fgrgrgrgr" template.json
