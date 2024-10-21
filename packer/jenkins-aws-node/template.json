@@ -3,8 +3,8 @@
     "variables": {
       "profile": "default",
       "region": "us-east-1",
-      "subnet_id": "subnet-2bf8024d",
-      "vpc_id": "vpc-e0687e9a"
+      "subnet_id": "subnet-2bf24d",
+      "vpc_id": "vpc-e9487e9a"
     },
  
     "builders": [{
@@ -20,7 +20,7 @@
           "name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*",
           "root-device-type": "ebs"
         },
-        "owners": ["099720109477"],
+        "owners": ["XXXXXXXXXXXX"],
         "most_recent": true
       },
       "instance_type": "t3.micro",
@@ -28,7 +28,7 @@
       "ssh_pty": true,
       "ami_name": "JenkinsAgent-{{timestamp}}",
       "run_tags": {
-        "Owner": "ns1"
+        "Owner": "infras"
       },
       "tags": {
           "Name": "Ubuntu 20.04 LTS Jenkins Agent",
